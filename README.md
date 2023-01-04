@@ -1,2 +1,3 @@
 # REACT-FINAL-PROJECT
-React project Eviatar &amp;&amp; Nitay
+React Project by Evyatar Zilberman && Nitay Kurt STORE-ONLINE
+
