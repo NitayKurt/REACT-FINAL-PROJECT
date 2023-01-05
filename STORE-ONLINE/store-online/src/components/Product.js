@@ -5,7 +5,7 @@ import { doc, deleteDoc } from 'firebase/firestore'
 import { db } from '../firebase-config'
 
 
-export default function Product({id ,name,category,price,image}) {
+export default function Product({id ,name,category,price,image,inStock}) {
 
     const [edit, setedit] = useState(false)
 
@@ -24,6 +24,7 @@ export default function Product({id ,name,category,price,image}) {
             <h3>Name:{name}</h3>
             <p>Category:{category}</p>
             <p>Price:{price}</p>
+            <p>In stock:{inStock}</p>
             <img src={image} alt=' img from db' width={"200px"}/>
             <br/>
             
@@ -38,6 +39,7 @@ export default function Product({id ,name,category,price,image}) {
             editPoductName={name}
             editPrice={price}
             editImage={image}
+            editStock={inStock}
             finishEdit={()=>setedit(false)} />}
         </div>
       )

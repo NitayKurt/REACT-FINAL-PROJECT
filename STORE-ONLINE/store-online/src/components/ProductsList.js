@@ -60,6 +60,7 @@ export default function ProductsList() {
                     name={product.data.name}
                     price={product.data.price}
                     image={product.data.image}
+                    inStock={product.data.inStock}
                     category={product.data.category}/>
                 </div>
             ))}
