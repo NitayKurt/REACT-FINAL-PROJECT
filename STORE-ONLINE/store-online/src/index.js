@@ -23,7 +23,7 @@ root.render(
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/products' element={<Products/>}/>
-      <Route path='/products/outside' element={<Outside/>}/>
+        <Route path='/products/outside' element={<Outside/>}/>
         <Route path='/products/inside' element={<Inside/>}/>
         <Route path='/products/underwater' element={<Underwater/>}/>
      {/* כאן צריך להיכנס שלוש קטגוריות ללחיצה "בפנים, בחוץ,מתחת למים" */}
