@@ -11,8 +11,8 @@ export default function Nav() {
           <li className="nav-item"> <Link className="nav-link" to='/'>HOME</Link> </li>
           {/* http://localhost:3000/about */}
           <li className="nav-item"> <Link className="nav-link" to='/about'>ABOUT</Link> </li>
-          {/* http://localhost:3000/items */}
-          <li className="nav-item"> <Link className="nav-link" to='/items'>ITEMS</Link> </li>
+          {/* http://localhost:3000/products */}
+          <li className="nav-item"> <Link className="nav-link" to='/products'>PRODUCTS</Link> </li>
           {/* http://localhost:3000/contactus */}
           <li className="nav-item"> <Link className="nav-link" to='/contactus'>CONTACT US</Link> </li>
         </ul>
