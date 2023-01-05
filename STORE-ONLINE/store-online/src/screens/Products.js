@@ -9,7 +9,7 @@ export default function Products() {
   <thead>
     <tr>
       <th scope="col">
-      <div className='card' style={{ width: '20rem' }} >
+              <div className='card' style={{ width: '20rem' }} >
                 <img class="card-img-top" src="https://cdn.pixabay.com/photo/2016/11/14/03/14/children-1822471_960_720.jpg" alt='kids playing outside'/>
                  <div class="card-body">
                   <h5 class="card-title">OUTSIDE</h5>
@@ -22,7 +22,7 @@ export default function Products() {
              </div>
       </th>
       <th scope="col">
-      <div className='card' style={{ width: '20rem' }} >
+              <div className='card' style={{ width: '20rem' }} >
                 <img class="card-img-top" src="https://cdn.pixabay.com/photo/2016/11/28/10/48/child-1864718_960_720.jpg" alt='kids playing inside'/>
                  <div class="card-body">
                   <h5 class="card-title">INSIDE</h5>
@@ -35,7 +35,7 @@ export default function Products() {
              </div>
       </th>
       <th scope="col">
-      <div className='card' style={{ width: '20rem' }} >
+              <div className='card' style={{ width: '20rem' }} >
                 <img class="card-img-top" src="https://cdn.pixabay.com/photo/2013/12/17/20/10/bubbles-230014_960_720.jpg" alt='kids playing underwater'/>
                  <div class="card-body">
                   <h5 class="card-title">UNDERWATER</h5>
