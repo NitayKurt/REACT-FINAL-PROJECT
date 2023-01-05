@@ -8,6 +8,8 @@ export default function AddNewProduct({ onClose }) {
   const [name, setName] = useState('');
   const [price, setPrice] = useState('');
   const [image, setImage] = useState('');
+  const [category, setCategory] = useState('');
+
   
 
   const handleSubmit = async(e) => {
@@ -16,7 +18,7 @@ export default function AddNewProduct({ onClose }) {
     try{
         // addDoc(collection, new document)
         await addDoc(collection(db, 'Products'), {
-            name: name, price: price, image: image 
+            name: name, price: price, image: image, category: category
         })
         onClose();
     }catch(error){
@@ -40,6 +42,10 @@ export default function AddNewProduct({ onClose }) {
             <label>Add image</label>
             <textarea type='text' onChange={(e)=>setImage(e.target.value)}
             className='form-control' value={image}></textarea>
+
+            <label>Add category</label>
+            <textarea type='text' onChange={(e)=>setCategory(e.target.value)}
+            className='form-control' value={category}></textarea>
             
             <input type='submit' className='btn btn-success mt-2'/>
     </form>
