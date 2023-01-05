@@ -4,7 +4,7 @@ import { Outlet, Link } from 'react-router-dom'
 export default function Products() {
   return (
     <div className='container'>
-      <h2>Our Products</h2>
+      <h2 className="text-center">Our Products</h2>
       <table class="table">
   <thead>
     <tr>
