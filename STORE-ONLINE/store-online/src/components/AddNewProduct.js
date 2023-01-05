@@ -9,6 +9,7 @@ export default function AddNewProduct({ onClose }) {
   const [price, setPrice] = useState('');
   const [image, setImage] = useState('');
   const [category, setCategory] = useState('');
+  const [inStock, setInStock] = useState('');
 
   
 
@@ -18,7 +19,7 @@ export default function AddNewProduct({ onClose }) {
     try{
         // addDoc(collection, new document)
         await addDoc(collection(db, 'Products'), {
-            name: name, price: price, image: image, category: category
+            name: name, price: price, image: image, category: category, inStock: inStock
         })
         onClose();
     }catch(error){
@@ -46,6 +47,10 @@ export default function AddNewProduct({ onClose }) {
             <label>Add category</label>
             <textarea type='text' onChange={(e)=>setCategory(e.target.value)}
             className='form-control' value={category}></textarea>
+
+            <label>In stock</label>
+            <textarea type='text' onChange={(e)=>setInStock(e.target.value)}
+            className='form-control' value={inStock}></textarea>
             
             <input type='submit' className='btn btn-success mt-2'/>
     </form>
