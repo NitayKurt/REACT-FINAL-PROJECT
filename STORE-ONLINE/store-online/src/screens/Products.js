@@ -33,7 +33,6 @@ export default function Products() {
                   </button>
                 </div>
              </div>
-      
       </th>
       <th scope="col">
       <div className='card' style={{ width: '20rem' }} >
@@ -47,7 +46,6 @@ export default function Products() {
                   </button>
                 </div>
              </div>
-      
       </th>
     </tr>
   </thead>
