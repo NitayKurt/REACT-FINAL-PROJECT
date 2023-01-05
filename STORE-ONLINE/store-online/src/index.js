@@ -10,6 +10,9 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import About from './screens/About';
 import Products from './screens/Products';
 import ContactUs from './screens/ContactUs';
+import Inside from './screens/products/Inside';
+import Outside from './screens/products/Outside';
+import Underwater from './screens/products/Underwater';
 
 // 1. import the BrowserRouter
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,6 +23,9 @@ root.render(
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/products' element={<Products/>}/>
+      <Route path='/products/outside' element={<Outside/>}/>
+        <Route path='/products/inside' element={<Inside/>}/>
+        <Route path='/products/underwater' element={<Underwater/>}/>
      {/* כאן צריך להיכנס שלוש קטגוריות ללחיצה "בפנים, בחוץ,מתחת למים" */}
       <Route path='/contactus' element={<ContactUs/>}/>
       {/* 404 - NOT FOUND ROUTING */}
