@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { doc, updateDoc } from 'firebase/firestore'
+import { doc, namedQuery, updateDoc } from 'firebase/firestore'
 import { db } from '../firebase-config'
 
 
@@ -42,11 +42,13 @@ const [inStock, setInStock] = useState(editInStock);
             className='form-control' value={name}/>
 
             <label>Edit Price</label>
-            <textarea type='text' onChange={(e)=>setPrice(e.target.value)}
-            className='form-control' value={price}></textarea>
+            <input type='number' onChange={(e)=>setPrice(e.target.value)}
+            className='form-control' value={price}/>
+
             <label>Edit Image</label>
             <textarea type='text' onChange={(e)=>setImage(e.target.value)}
             className='form-control' value={image}></textarea>
+
             <label>Edit Stock</label>
             <textarea type='text' onChange={(e)=>setInStock(e.target.value)}
             className='form-control' value={inStock}></textarea>
