@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import About from './screens/About';
 import Products from './screens/Products';
+import AllProducts from './screens/AllProducts';
 import ContactUs from './screens/ContactUs';
 import Inside from './screens/products/Inside';
 import Outside from './screens/products/Outside';
@@ -28,6 +29,7 @@ root.render(
         <Route path='/products/underwater' element={<Underwater/>}/>
      {/* כאן צריך להיכנס שלוש קטגוריות ללחיצה "בפנים, בחוץ,מתחת למים" */}
       
+      <Route path='/allproducts' element={<AllProducts/>}/>
       <Route path='/contactus' element={<ContactUs/>}/>
       {/* 404 - NOT FOUND ROUTING */}
       <Route path='*' element={<h3 className='text-center alert alert-danger'>
