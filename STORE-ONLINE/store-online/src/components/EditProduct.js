@@ -4,7 +4,7 @@ import { db } from '../firebase-config'
 
 
 
-export default function EditProduct({id,name,price,image,inStock}) {
+export default function EditProduct({id,editProductName,editPrice,editImage,editInStock,finishEdit}) {
 // store the previous data, and can update to new data from input.  
 const [name, setProductName] = useState(editProductName);
 const [price, setPrice] = useState(editPrice);
