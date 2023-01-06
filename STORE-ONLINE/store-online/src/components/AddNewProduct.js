@@ -44,11 +44,11 @@ export default function AddNewProduct({ onClose }) {
             <textarea type='text' onChange={(e)=>setImage(e.target.value)}
             className='form-control' value={image}></textarea>
 
-            <label>Add category</label>
+            <label>Choose Category: 'inside' , 'outside' , 'underwater'</label>
             <textarea type='text' onChange={(e)=>setCategory(e.target.value)}
             className='form-control' value={category}></textarea>
 
-            <label>In stock</label>
+            <label>In stock: 'true' , 'false'</label>
             <textarea type='text' onChange={(e)=>setInStock(e.target.value)}
             className='form-control' value={inStock}></textarea>
             

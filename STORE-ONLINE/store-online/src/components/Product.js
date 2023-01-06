@@ -21,11 +21,11 @@ export default function Product({id ,name,category,price,image,inStock}) {
       }
       return (
         <div className='alert alert-info'>
-            <h3>Name:{name}</h3>
-            <p>Category:{category}</p>
-            <p>Price:{price}</p>
-            <p>In stock:{inStock}</p>
-            <img src={image} alt=' img from db' width={"200px"}/>
+            <h3>Name: {name}</h3>
+            <p>Category: {category}</p>
+            <p>Price: {price} ₪</p>
+            <p>In stock: {inStock}</p>
+            <img src={image} alt=' img from db' width={"330px"} height={"250px"}/>
             <br/>
             
     

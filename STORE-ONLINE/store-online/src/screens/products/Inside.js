@@ -1,10 +1,10 @@
 import React from 'react'
-import Product from '../../components/Product'
+import ProductsList from '../../components/ProductsList'
 
 export default function Inside() {
   return (
     <div>Inside
-      <Product/>
+      <ProductsList/>
     </div>
   )
 }

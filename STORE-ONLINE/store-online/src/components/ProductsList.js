@@ -54,7 +54,7 @@ export default function ProductsList() {
     
             {/* If array is not empty - loop over it and show each task: */}
             {Products.length > 0 && Products.map(product => (
-                <div key={song.id}>
+                <div key={product.id}>
                     <Product
                     id={product.id}
                     name={product.data.name}
