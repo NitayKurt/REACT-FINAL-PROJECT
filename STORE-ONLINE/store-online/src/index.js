@@ -35,6 +35,7 @@ root.render(
       <Route path='*' element={<h3 className='text-center alert alert-danger'>
         404 - PAGE NOT FOUND</h3>}/>
     </Routes>
+    <FooterNavBar/>
   </BrowserRouter>
 );
 
