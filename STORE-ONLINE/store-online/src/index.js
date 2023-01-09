@@ -4,6 +4,8 @@ import './index.css';
 import Home from './screens/Home'
 import reportWebVitals from './reportWebVitals';
 import Nav from './Nav';
+import FooterNavBar from './FooterNavBar';
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 // import bootstrap: 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
