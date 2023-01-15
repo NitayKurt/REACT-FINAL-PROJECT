@@ -44,7 +44,7 @@ export default function ProductsList() {
     return (
         <div className='container'>
     
-            <h2>My Product</h2>
+            <h2>My Products</h2>
 
             <button className='btn mb-2' style={{backgroundColor:'darkcyan'}}
             onClick={()=>setNewProduct(true)}>Add a new Product</button>
