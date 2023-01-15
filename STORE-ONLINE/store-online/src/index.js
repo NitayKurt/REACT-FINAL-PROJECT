@@ -4,6 +4,8 @@ import './index.css';
 import Home from './screens/Home'
 import reportWebVitals from './reportWebVitals';
 import Nav from './Nav';
+import FooterNavBar from './FooterNavBar';
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 // import bootstrap: 
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
@@ -35,6 +37,7 @@ root.render(
       <Route path='*' element={<h3 className='text-center alert alert-danger'>
         404 - PAGE NOT FOUND</h3>}/>
     </Routes>
+    <FooterNavBar/>
   </BrowserRouter>
 );
 
