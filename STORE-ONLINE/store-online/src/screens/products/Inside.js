@@ -34,21 +34,23 @@ export default function Inside() {
 
   return (
     <div className="container">
-      <h2>My Inside Products</h2>
+      <h2 className="text-center"> Inside Products</h2>
 
       {Products.length > 0 &&
         Products.map((product) => (
          
-          <div class="card-deck">
-            <div class="card">
-                <h5 class="card-title">Product name: {product.data.name}</h5>
-              <img class="card-img-top" src={product.data.image}  alt="Items in inside category" />
-              <div class="card-body">
-                <p class="card-text">Category: {product.data.category}</p>
-                <p class="card-text">Price: {product.data.price}</p>
+          <div className="card-deck">
+            <div className="card" >
+                <h5 className="card-title">Product name: {product.data.name}</h5>
+              <img  src={product.data.image}  style={{ width: "200px", height: "200px" }} alt="Items in inside category"  />
+              <div className="card-body">
+                <p className="card-text">Category: {product.data.category}</p>
+                <p className="card-text">Price: {product.data.price} NIS</p>
               </div>
             </div>
+              <br></br>
           </div>
+          
         ))}
     </div>
   );
