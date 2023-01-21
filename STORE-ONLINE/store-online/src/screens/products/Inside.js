@@ -42,7 +42,7 @@ export default function Inside() {
           <div className="card-deck">
             <div className="card" >
                 <h5 className="card-title">Product name: {product.data.name}</h5>
-              <img  src={product.data.image}  style={{ width: "200px", height: "200px" }} alt="Items in inside category"  />
+              <img  src={product.data.image}  style={{ width: "400px", height: "400px" }} alt="Items in inside category"  />
               <div className="card-body">
                 <p className="card-text">Category: {product.data.category}</p>
                 <p className="card-text">Price: {product.data.price} NIS</p>
