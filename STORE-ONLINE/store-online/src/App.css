@@ -53,4 +53,12 @@
     font-style: italic;
     text-align: center;
   }
-  
+  .nav-bk{
+ 
+    background: #40E0D0;
+     
+    background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+     
+    background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+     
+    }
