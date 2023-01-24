@@ -6,7 +6,7 @@ export default function Nav() {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-info" style={{background:"linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet)"}}>
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul className="nav justify-content-center">
           {/* http://localhost:3000/ */}
           <li className="nav-item"> <Link className="nav-link" to='/'>HOME</Link> </li>
           {/* http://localhost:3000/about */}
