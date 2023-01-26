@@ -20,7 +20,7 @@ export default function Products() {
                  <div className="card-body">
                   <h5 className="card-title">OUTSIDE</h5>
                   <p className="card-text">Playing outside with our products</p>
-                  <button className="btn btn-info m-2"> 
+                  <button className="btn btn-primary m-2"> 
                    {/* http://localhost:3000/products/outside */}
                  <Link className="nav-link" to='/products/outside'>OUTSIDE</Link> 
                   </button>
@@ -33,7 +33,7 @@ export default function Products() {
                  <div className="card-body">
                   <h5 className="card-title">INSIDE</h5>
                   <p className="card-text">Playing indoor with our products</p>
-                  <button className="btn btn-info m-2"> 
+                  <button className="btn btn-primary m-2"> 
                    {/* http://localhost:3000/products/outside */}
                    <Link className="nav-link" to='/products/inside'>INSIDE</Link>  
                   </button>
@@ -46,7 +46,7 @@ export default function Products() {
                  <div className="card-body">
                   <h5 className="card-title">UNDERWATER</h5>
                   <p class="card-text">Playing underwater with us</p>
-                  <button className="btn btn-info m-2"> 
+                  <button className="btn btn-primary m-2"> 
                    {/* http://localhost:3000/products/outside */}
                    <Link className="nav-link" to='/products/underwater'>UNDERWATER</Link> 
                   </button>
