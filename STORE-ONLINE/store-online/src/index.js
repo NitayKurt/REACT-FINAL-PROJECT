@@ -16,6 +16,7 @@ import ContactUs from './screens/ContactUs';
 import Inside from './screens/products/Inside';
 import Outside from './screens/products/Outside';
 import Underwater from './screens/products/Underwater';
+import ViewItem from './screens/products/ViewItem';
 
 // 1. import the BrowserRouter
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -26,9 +27,14 @@ root.render(
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/products' element={<Products/>}/>
-        <Route path='/products/outside' element={<Outside/>}/>
-        <Route path='/products/inside' element={<Inside/>}/>
-        <Route path='/products/underwater' element={<Underwater/>}/>
+      <Route path='/products/outside' element={<Outside/>}/>
+      <Route path='/products/outside/:id' element={<ViewItem/>}/>
+        
+      <Route path='/products/inside' element={<Inside/>}/>
+      <Route path='/products/inside/:id' element={<ViewItem/>}/>
+
+      <Route path='/products/underwater' element={<Underwater/>}/>
+      <Route path='/products/underwater/:id' element={<ViewItem/>}/>
      {/* כאן צריך להיכנס שלוש קטגוריות ללחיצה "בפנים, בחוץ,מתחת למים" */}
       
       <Route path='/allproducts' element={<AllProducts/>}/>

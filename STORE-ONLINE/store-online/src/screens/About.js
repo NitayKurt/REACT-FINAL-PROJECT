@@ -16,6 +16,7 @@ export default function About() {
         alignItems: 'center',
         justifyContent: 'center',
        color: 'navy',
+       fontSize:'30px',
        fontStyle: 'italic'
       }}>Our store were made by a vision. A pretty greedy vision of getting a high grade in React course and improving our gpa. That's it. Thank you for reading.
        Nitay Chen Kurt, the CEO and the founder of the store is second year student to Practical Software Engineer in Ariel University.

@@ -5,6 +5,8 @@ import React, { useState, useEffect } from "react";
 import { collection, getDocs } from "firebase/firestore";
 // db - access to the db in firestore.
 import { db } from "../../firebase-config";
+import { Link } from "react-router-dom";
+import ViewItem from "./ViewItem";
 
 export default function Outside() {
   // 1. Array to store all the songs from the DB
@@ -46,6 +48,11 @@ export default function Outside() {
               <div className="card-body">
                 <p className="card-text">Category: {product.data.category}</p>
                 <p className="card-text">Price: {product.data.price} NIS</p>
+                <Link to={product.id}>
+            <button className="btn btn-outline-primary mt-auto">
+              View Item
+            </button>
+          </Link>
               </div>
             </div>
               <br></br>
