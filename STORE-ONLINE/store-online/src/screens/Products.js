@@ -16,7 +16,7 @@ export default function Products() {
     <tr>
       <th scope="col">
               <div className='card' style={{ width: '20rem' }} >
-                <img className="card-img-top" src="https://cdn.pixabay.com/photo/2013/02/12/19/50/lesotho-80841_960_720.jpg" alt='kids playing outside' height={"350px"} width={"380px"}/>
+                <img className="card-img-top" src="https://media3.giphy.com/media/NsEljS2ZJf1bDQRHcC/giphy.gif?cid=ecf05e4778wd6wr1qjk4fa4yvtxeunc99fqzjro64sf62ur6&rid=giphy.gif&ct=g" alt='kids playing outside' height={"350px"} width={"380px"}/>
                  <div className="card-body">
                   <h5 className="card-title">OUTSIDE</h5>
                   <p className="card-text">Playing outside with our products</p>
@@ -29,7 +29,7 @@ export default function Products() {
       </th>
       <th scope="col">
               <div className='card' style={{ width: '20rem' }} >
-                <img className="card-img-top" src="https://cdn.pixabay.com/photo/2016/11/28/10/48/child-1864718_960_720.jpg" alt='kids playing inside'height={"350px"} width={"380px"}/>
+                <img className="card-img-top" src="https://media3.giphy.com/media/9POMmQiLkvhRzKFXyT/giphy.gif?cid=ecf05e47cy4krdiy9ihz6oe9dya255wnknxwftqlbs9qoefn&rid=giphy.gif&ct=g" alt='kids playing inside'height={"350px"} width={"380px"}/>
                  <div className="card-body">
                   <h5 className="card-title">INSIDE</h5>
                   <p className="card-text">Playing indoor with our products</p>
@@ -42,7 +42,7 @@ export default function Products() {
       </th>
       <th scope="col">
               <div className='card' style={{ width: '20rem' }} >
-                <img className="card-img-top" src="https://cdn.pixabay.com/photo/2013/12/17/20/10/bubbles-230014_960_720.jpg" alt='kids playing underwater'height={"350px"} width={"380px"}/>
+                <img className="card-img-top" src="https://media0.giphy.com/media/e5DcS1mZO9Y2o4A5EI/giphy.gif?cid=ecf05e475kx4tw63b5o0zygjpl8kw1pxogit4wotq1ccaxns&rid=giphy.gif&ct=g" alt='kids playing underwater'height={"350px"} width={"380px"}/>
                  <div className="card-body">
                   <h5 className="card-title">UNDERWATER</h5>
                   <p class="card-text">Playing underwater with us</p>

@@ -5,7 +5,7 @@ import { Link, Outlet } from 'react-router-dom'
 export default function Nav() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-info" style={{background:"linear-gradient(to right, orange,yellow,orange)"}}>
+      <nav className="navbar navbar-expand-lg bg-info text-reset fw-bold" style={{background:"linear-gradient(to right, orange,aqua)"}}>
         <ul className="nav justify-content-center">
           {/* http://localhost:3000/ */}
           <li className="nav-item"> <Link className="nav-link" to='/'>HOME</Link> </li>
