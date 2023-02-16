@@ -17,6 +17,8 @@ will take you to specific page with all the details about the specific item you 
 ### All Products
 In this page you can see all your products in your server and you can also delete or add or edit your product there!
 
+### Contact US
+We add the option to contact us by email or in linkedin:)
 
 © 2023 Copyright - Nitay Kurt & Eviatar Zilberman
 
@@ -24,3 +26,5 @@ In this page you can see all your products in your server and you can also delet
 ![homepage](https://user-images.githubusercontent.com/104898225/219352911-a41d42eb-ae2f-419c-bacc-afe18fd986cb.png)
 ![singleItem](https://user-images.githubusercontent.com/104898225/219352915-93867b9b-7bad-4b98-993d-e83ea45eb608.png)
 ![בתוך קגוריית מוצרי חוץ](https://user-images.githubusercontent.com/104898225/219352916-5f97e500-ef16-44c6-adae-3f0b87f4c830.png)
+![contactus](https://user-images.githubusercontent.com/104898225/219353475-19856a49-1600-4d60-9807-092a72820dd1.png)
+![allProducts](https://user-images.githubusercontent.com/104898225/219353482-8d2c7a75-89ab-46bb-8c3c-667b440a9849.png)
